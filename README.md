@@ -19,8 +19,8 @@ data
 │   └───valid
 │
 └───400
-│   └───test
-│   └───valid
+    └───test
+    └───valid
 ```
 data：该目录包含了训练所需的图像数据文件，其中不同放大倍数(40×、100×、200×、400×)的训练集、验证集如上所示的层次结构进行存储。下载地址：<https://web.inf.ufpr.br/vri/databases/breast-cancer-histopathological-database-breakhis/>
 
