@@ -1,27 +1,28 @@
 # Breast_Cancer_Detection
 乳腺癌识别，2019年毕业设计
 
---------
 ```
 data  
 │
 └───40
 │   └───test
+│       └───B
+│       └───M
 │   └───valid
-│   
-│
+│       └───B
+│       └───M
 └───100
-│   └───test
-│   └───valid
+│   └─── ...
 │
 └───200
-│   └───test
-│   └───valid
+│   └─── ...
 │
 └───400
-    └───test
-    └───valid
+    └─── ...
 ```
+`requires tensorflow >= 1.13`
+
+
 data：该目录包含了训练所需的图像数据文件，其中不同放大倍数(40×、100×、200×、400×)的训练集、验证集如上所示的层次结构进行存储。下载地址：<https://web.inf.ufpr.br/vri/databases/breast-cancer-histopathological-database-breakhis/>
 
 log：该目录用来保存训练结果。
